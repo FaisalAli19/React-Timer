@@ -1,7 +1,9 @@
-This is a React Weather app.
+This is a React Timer app.
 
 I have used my react skills on this projects.
 
-You can view this app on Heroku link below.
+This app is still under creation phase.
 
-Link: 
+If you want you can view this app on Heroku.
+
+Link: http://immense-sierra-71170.herokuapp.com/
