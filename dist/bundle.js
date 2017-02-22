@@ -12350,7 +12350,7 @@ const ReactDOM = __webpack_require__(146);
 const { Router, Route, IndexRoute, hashHistory } = __webpack_require__(106);
 
 //Components
-const Counter = __webpack_require__(116);
+const Countdown = __webpack_require__(116);
 const Main = __webpack_require__(117);
 const Timer = __webpack_require__(119);
 
@@ -12370,7 +12370,7 @@ ReactDOM.render(React.createElement(
         Route,
         { path: '/', component: Main },
         React.createElement(IndexRoute, { component: Timer }),
-        React.createElement(Route, { path: 'counter', component: Counter })
+        React.createElement(Route, { path: 'countdown', component: Countdown })
     )
 ), App);
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(248)))
@@ -12393,8 +12393,8 @@ __webpack_require__(111)(__webpack_require__(145))
 
 const React = __webpack_require__(6);
 
-var Counter = React.createClass({
-    displayName: 'Counter',
+var Countdown = React.createClass({
+    displayName: 'Countdown',
 
     render: function () {
         return React.createElement(
@@ -12403,13 +12403,13 @@ var Counter = React.createClass({
             React.createElement(
                 'h1',
                 null,
-                'Counter'
+                'Countdown'
             )
         );
     }
 });
 
-module.exports = Counter;
+module.exports = Countdown;
 
 /***/ }),
 /* 117 */
@@ -12467,8 +12467,8 @@ var Navbar = () => {
                     null,
                     React.createElement(
                         Link,
-                        { to: 'counter', activeClassName: 'active' },
-                        'Counter'
+                        { to: 'countdown', activeClassName: 'active' },
+                        'Countdown'
                     )
                 )
             )

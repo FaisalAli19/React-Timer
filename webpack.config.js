@@ -1,4 +1,5 @@
 var webpack = require("webpack");
+const path = require('path');
 
 module.exports = {
     entry: [
@@ -12,6 +13,19 @@ module.exports = {
     output: {
         filename: "bundle.js",
         path: __dirname + "/dist"
+    },
+    resolve: {
+        modules: [
+            "node_modules",
+            path.resolve(__dirname)
+        ],
+        alias:{
+            Main: "App/components/Main.js",
+            Timer: "App/components/Timer.js",
+            Countdown: "App/components/Countdown.js",
+            Navbar: "App/components/Navbar.js"
+        },
+        extensions: [" ", ".js", ".jsx"]
     },
     module: {
         loaders: [

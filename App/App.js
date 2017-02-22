@@ -3,9 +3,9 @@ const ReactDOM = require('react-dom');
 const { Router, Route, IndexRoute, hashHistory } = require('react-router');
 
 //Components
-const Countdown = require('./components/Countdown');
-const Main = require('./components/Main');
-const Timer = require('./components/Timer');
+const Countdown = require('Countdown');
+const Main = require('Main');
+const Timer = require('Timer');
 
 //foundation
 require("style-loader!css-loader!foundation-sites/dist/css/foundation.min.css")
