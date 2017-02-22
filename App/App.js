@@ -3,7 +3,7 @@ const ReactDOM = require('react-dom');
 const { Router, Route, IndexRoute, hashHistory } = require('react-router');
 
 //Components
-const Counter = require('./components/Counter');
+const Countdown = require('./components/Countdown');
 const Main = require('./components/Main');
 const Timer = require('./components/Timer');
 
@@ -20,7 +20,7 @@ ReactDOM.render(
     <Router history={hashHistory}>
         <Route path="/" component={Main}>
             <IndexRoute component={Timer}/>
-            <Route path="counter" component={Counter}/>
+            <Route path="countdown" component={Countdown}/>
         </Route>
     </Router>,
     App

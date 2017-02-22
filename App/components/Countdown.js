@@ -1,13 +1,13 @@
 const React = require('react');
 
-var Counter = React.createClass({
+var Countdown = React.createClass({
     render: function() {
         return (
             <div>
-                <h1>Counter</h1>
+                <h1>Countdown</h1>
             </div>
         );
     }
 });
 
-module.exports = Counter;
+module.exports = Countdown;

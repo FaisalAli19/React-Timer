@@ -11,7 +11,7 @@ var Navbar = () => {
                         <IndexLink to="/" activeClassName="active">Timer</IndexLink>
                     </li>
                     <li>
-                        <Link to="counter" activeClassName="active">Counter</Link>
+                        <Link to="countdown" activeClassName="active">Countdown</Link>
                     </li>
                 </ul>
             </div>
