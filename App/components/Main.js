@@ -7,7 +7,11 @@ var Main = (props) => {
     return (
         <div>
             <Navbar />
-            {props.children}
+            <div className="row">
+                <div className="column small-centered medium-6 large-4">
+                    {props.children}
+                </div>
+            </div>
         </div>
     );
 };
