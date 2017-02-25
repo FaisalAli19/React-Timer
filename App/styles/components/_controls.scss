@@ -1,0 +1,16 @@
+.controls{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+    .button{
+        padding: .75rem 3rem;
+    }
+
+    .button:first-child{
+        margin-right: 1.5rem;
+    }
+}
